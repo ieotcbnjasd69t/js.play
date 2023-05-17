@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ゲームスタート画面</title>
+  <style>
+    body {
+      text-align: center;
+      padding-top: 100px;
+      font-family: Arial, sans-serif;
+      position: relative; 
+    }
+
+    .background-image {
+      size: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; 
+    }
+
+    h1 {
+      font-size: 50px;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff5500;
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #ff3300;
+    }
+  </style>
+</head>
+<body>
+  <div class="background-image">
+    <img src="https://i.pinimg.com/originals/2c/03/e1/2c03e1a16db8981961b2d455524605e7.gif" alt="背景イメージ">
+  </div>
+
+  <h1>日本国ゲーム</h1>
+
+  <h2>ルール説明</h2>
+
+  <h3>このゲームは日本の国旗を作るゲームです</h3>
+
+  <ol>
+    <li>ランダムに出現するターゲットの中心に赤い円を入れ国旗を作り高得点を目指そう</li>
+    <li>一回入れるごとに100ptもらえるが、たまに出現する偽物に入れると－100ptとなる</li>
+    <li>中には高得点がもらえるターゲットが出現するがすぐに消えるので見逃すな</li>
+  </ol>
+
+  <a href="packman.html" class="button">ゲームスタート</a>
+
+</body>
+</html>
+
